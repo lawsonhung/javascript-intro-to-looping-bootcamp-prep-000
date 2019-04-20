@@ -13,6 +13,6 @@ function whileLoop(n) {
   if (n === 0) {
     return 'done';
   } else {
-    return console.log(n--);
+    console.log(n--);
   }
 }
